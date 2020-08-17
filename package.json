@@ -6,5 +6,12 @@
   "repository": "git@github.com:pyBae-py/graphqlyoga.git",
   "author": "Sajeel Ahmad",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "start": "nodemon -e js,graphql src/index.js"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "prisma-binding": "^2.3.16"
+  }
 }
